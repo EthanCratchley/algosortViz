@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+body {
+  background-color: #181818;
+  color: #EAEAEA;
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+canvas {
+  border-radius: 10px;
+  background: #222;
+  transition: background 0.3s;
+}
