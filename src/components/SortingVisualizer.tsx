@@ -94,7 +94,6 @@ const SortingVisualizer: React.FC = () => {
 
   return (
     <div className="flex flex-col items-center min-h-screen bg-background text-text">
-      <h1 className="text-3xl font-bold text-primary mt-6">Sorting Algorithm Visualizer</h1>
 
       {/* Control Buttons */}
       <div className="flex gap-4 my-4">
@@ -136,18 +135,6 @@ const SortingVisualizer: React.FC = () => {
       {/* Sorting Visualization */}
       <DotCanvas array={array} />
 
-      {/* Footer */}
-      <footer className="mt-10 text-gray-400 text-sm">
-        Built by Ethan | Open Source on{" "}
-        <a
-          href="https://github.com/yourgithubrepo"
-          className="text-primary hover:underline"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-      </footer>
     </div>
   );
 };
